@@ -54,7 +54,7 @@ jobs:
         pip install firecloud==0.16.25
                 
         # Change to the directory holding the workspace assets.
-        cd terra-fw-notebooks/
+        cd notebooks/
         
         # Publish the notebooks.
         gsutil -m cp 0_Intro_to_Jupyter_Notebooks_OPTIONAL.ipynb "gs://${WORKSPACE_BUCKET}/notebooks/"
