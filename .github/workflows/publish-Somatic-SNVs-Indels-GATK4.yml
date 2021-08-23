@@ -1,4 +1,4 @@
-name: Publish to Terra Notebooks Quickstart
+name: Publish to Somatic-SNVs-Indels-GATK4.yml
 # Publish notebooks and dashboard markdown from the source-of-truth, a GitHub repository, to the
 # deployment destination, a Terra workspace. See http://app.terra.bio for more detail.
 #
