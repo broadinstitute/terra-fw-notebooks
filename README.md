@@ -20,7 +20,7 @@ More detail about the contents and organization of the FWs can be found in this 
 
 ----------------------------------------
 
-1) "New and interesting" featured workspaces:
+## 1) "New and interesting" featured workspaces:
 
 ----------
 
@@ -196,7 +196,7 @@ Genomics-Notebook
 
 ----------------------------------------
 
-2) "Tutorials" featured workspaces
+## 2) "Tutorials" featured workspaces
 
 ----------
 
@@ -916,7 +916,7 @@ GWAS_initial_analysis_completed
 
 ----------------------------------------
 
-3) "GATK best practices" featured workspaces
+## 3) "GATK best practices" featured workspaces
 
 ----------
 
