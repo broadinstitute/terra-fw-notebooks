@@ -58,15 +58,6 @@ jobs:
         
         # Publish the notebooks.
         gsutil -m cp 1-gatk-germline-variant-discovery-tutorial.ipynb "gs://${WORKSPACE_BUCKET}/notebooks/"
-        gsutil -m cp 2-gatk-hard-filtering-tutorial "gs://${WORKSPACE_BUCKET}/notebooks/"
-        gsutil -m cp 3-gatk-cnn-tutorial "gs://${WORKSPACE_BUCKET}/notebooks/"
+        gsutil -m cp 2-gatk-hard-filtering-tutorial.ipynb "gs://${WORKSPACE_BUCKET}/notebooks/"
+        gsutil -m cp gatk-cnn-tutorial.ipynb "gs://${WORKSPACE_BUCKET}/notebooks/3-gatk-cnn-tutorial.ipynb"
         
-        ## Publish the dashboard markdown.
-        #python << EOF
-        #import firecloud.api as fapi
-        #with open('README.md') as f:
-        #  fapi.update_workspace_attributes(
-        #      namespace="$NAMESPACE",
-        #      workspace="$WORKSPACE",
-        #      attrs=[fapi._attr_set(attr='description', value=f.read())]).json()
-        #EOF
