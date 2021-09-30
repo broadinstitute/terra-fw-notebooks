@@ -11,7 +11,9 @@ Below are listed the notebooks contained in each of Terra's featured workspaces 
 help-gatk/GATK4-Germline-Preprocessing-VariantCalling-JointCalling
 #### Notebooks:
 1-gatk-germline-variant-discovery-tutorial
+
 2-gatk-hard-filtering-tutorial
+
 Workflow Cost Estimator
 
 ### Workspace:
@@ -28,6 +30,7 @@ Somatic-CNA-Tutorial
 help-gatk/cnn-variant-filter
 #### Notebooks:
 gatk-cnn-tutorial
+
 Archived/gatk-cnn-tutorial
 
 ### Workspace:
@@ -39,33 +42,41 @@ Cluster_Analysis_Tetralogy_of_Fallot
 help-gatk/GATKTutorials-Germline
 #### Notebooks:
 3-gatk-cnn-tutorial
+
 2-gatk-hard-filtering-tutorial
+
 1-gatk-germline-variant-discovery-tutorial
 
 ### Workspace:
 help-gatk/GATKTutorials-Somatic
 #### Notebooks:
 2-somatic-cna-tutorial
+
 1-somatic-mutect2-tutorial
 
 ### Workspace:
 fc-product-demo/Terra-Notebooks-Quickstart
 #### Notebooks:
 1_R_environment_setup
+
 2_BigQuery_cohort_analysis
+
 3_Access_and_plot_public_BigQuery_data
+
 0_Intro_to_Jupyter_Notebooks_OPTIONAL
 
 ### Workspace:
 terra-outreach/DEMO-Working-with-gnomAD
 #### Notebooks:
 gnomAD-with-Hail
+
 gnomAD-with-BigQuery
 
 ### Workspace:
 amp-t2d-op/2019_ASHG_Reproducible_GWAS-V2
 #### Notebooks:
 GWAS_initial_analysis_blank
+
 GWAS_initial_analysis_completed
 
 ------------------------------
