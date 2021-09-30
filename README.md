@@ -7,77 +7,46 @@ Below are listed the notebooks contained in each of Terra's featured workspaces 
 
 ----------------------------------------
 
-### Workspace:
-help-gatk/GATK4-Germline-Preprocessing-VariantCalling-JointCalling
-#### Notebooks:
-1-gatk-germline-variant-discovery-tutorial
+#### help-gatk/GATK4-Germline-Preprocessing-VariantCalling-JointCalling
+* 1-gatk-germline-variant-discovery-tutorial
+* 2-gatk-hard-filtering-tutorial
+* Workflow Cost Estimator
 
-2-gatk-hard-filtering-tutorial
+#### help-gatk/Somatic-SNVs-Indels-GATK4
+* Somatic-Mutect2-Tutorial
 
-Workflow Cost Estimator
+#### help-gatk/Somatic-CNVs-GATK4
+* Somatic-CNA-Tutorial
 
-### Workspace:
-help-gatk/Somatic-SNVs-Indels-GATK4
-#### Notebooks:
-Somatic-Mutect2-Tutorial
+#### help-gatk/cnn-variant-filter
+* gatk-cnn-tutorial
+* Archived/gatk-cnn-tutorial
 
-### Workspace:
-help-gatk/Somatic-CNVs-GATK4
-#### Notebooks:
-Somatic-CNA-Tutorial
+#### help-gatk/Reproducibility_Case_Study_Tetralogy_of_Fallot
+* Cluster_Analysis_Tetralogy_of_Fallot
 
-### Workspace:
-help-gatk/cnn-variant-filter
-#### Notebooks:
-gatk-cnn-tutorial
+#### help-gatk/GATKTutorials-Germline
+* 3-gatk-cnn-tutorial
+* 2-gatk-hard-filtering-tutorial
+* 1-gatk-germline-variant-discovery-tutorial
 
-Archived/gatk-cnn-tutorial
+#### help-gatk/GATKTutorials-Somatic
+* 2-somatic-cna-tutorial
+* 1-somatic-mutect2-tutorial
 
-### Workspace:
-help-gatk/Reproducibility_Case_Study_Tetralogy_of_Fallot
-#### Notebooks:
-Cluster_Analysis_Tetralogy_of_Fallot
+#### fc-product-demo/Terra-Notebooks-Quickstart
+* 1_R_environment_setup
+* 2_BigQuery_cohort_analysis
+* 3_Access_and_plot_public_BigQuery_data
+* 0_Intro_to_Jupyter_Notebooks_OPTIONAL
 
-### Workspace:
-help-gatk/GATKTutorials-Germline
-#### Notebooks:
-3-gatk-cnn-tutorial
+#### terra-outreach/DEMO-Working-with-gnomAD
+* gnomAD-with-Hail
+* gnomAD-with-BigQuery
 
-2-gatk-hard-filtering-tutorial
-
-1-gatk-germline-variant-discovery-tutorial
-
-### Workspace:
-help-gatk/GATKTutorials-Somatic
-#### Notebooks:
-2-somatic-cna-tutorial
-
-1-somatic-mutect2-tutorial
-
-### Workspace:
-fc-product-demo/Terra-Notebooks-Quickstart
-#### Notebooks:
-1_R_environment_setup
-
-2_BigQuery_cohort_analysis
-
-3_Access_and_plot_public_BigQuery_data
-
-0_Intro_to_Jupyter_Notebooks_OPTIONAL
-
-### Workspace:
-terra-outreach/DEMO-Working-with-gnomAD
-#### Notebooks:
-gnomAD-with-Hail
-
-gnomAD-with-BigQuery
-
-### Workspace:
-amp-t2d-op/2019_ASHG_Reproducible_GWAS-V2
-#### Notebooks:
-GWAS_initial_analysis_blank
-
-GWAS_initial_analysis_completed
+#### amp-t2d-op/2019_ASHG_Reproducible_GWAS-V2
+* GWAS_initial_analysis_blank
+* GWAS_initial_analysis_completed
 
 ------------------------------
 
