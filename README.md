@@ -17,6 +17,26 @@ The list is subdivided into three categories, based on the organization of the F
 More detail about the contents and organization of the FWs can be found in this article in the Terra knowledge center: https://support.terra.bio/hc/en-us/articles/360028967111
 
 
+## Git Actions
+
+This workspace has a list of Git actions, one for each Terra Featured Workspace. The executing the git actions will copy 1 or more of the notebooks in this repository to the respective Terra workspace bucket. 
+
+## Adding New Notebooks
+
+New noteboks should be placed in the ./notebooks folder. Then a Git Actions YML should be created for the notebook(s) using the .github/workflows/publish.yml as a template. 
+Enusre the YML ENV block is updated with the workspace propeities the notebooks should be copied to:
+```
+env:
+  NAMESPACE: ''
+  WORKSPACE: ''
+  WORKSPACE_BUCKET: ''
+```
+
+and which notebook(s) to copy is updated in "Publish the notebooks." step.
+```
+# Publish the notebooks.
+        gsutil -m cp <name>.ipynb "gs://${WORKSPACE_BUCKET}/notebooks/"
+```
 
 ----------------------------------------
 
