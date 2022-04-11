@@ -15,7 +15,7 @@ on:
 
 env:
   # TO REUSE THIS TEMPLATE, change these values to reflect those of your destination Terra workspace.
-  NAMESPACE: 'help-gat'
+  NAMESPACE: 'help-gatk'
   WORKSPACE: 'Somatic-CNVs-GATK4'
   WORKSPACE_BUCKET: 'fc-50603aac-1f58-439b-b9d3-2b53357134ab'
 
@@ -34,7 +34,7 @@ jobs:
         python-version: 3.7
 
     - name: Setup gcloud CLI
-      uses: google-github-actions/setup-gcloud@master
+      uses: google-github-actions/setup-gcloud@v0
       # TO REUSE THIS TEMPLATE, configure auth.
       # Step 1: Create a service account and store its key in GitHub as 'TERRA_SECRET' per these instructions:
       # https://github.com/google-github-actions/setup-gcloud/blob/master/setup-gcloud/README.md
