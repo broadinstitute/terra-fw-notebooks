@@ -34,7 +34,7 @@ jobs:
         python-version: 3.7
 
     - name: Setup gcloud CLI
-      uses: google-github-actions/setup-gcloud@master
+      uses: google-github-actions/setup-gcloud@v0
       # TO REUSE THIS TEMPLATE, configure auth.
       # Step 1: Create a service account and store its key in GitHub as 'TERRA_SECRET' per these instructions:
       # https://github.com/google-github-actions/setup-gcloud/blob/master/setup-gcloud/README.md
@@ -59,13 +59,3 @@ jobs:
         # Publish the notebooks.
         gsutil -m cp gnomAD-with-Hail.ipynb "gs://${WORKSPACE_BUCKET}/notebooks/"
         gsutil -m cp gnomAD-with-BigQuery.ipynb "gs://${WORKSPACE_BUCKET}/notebooks/"
-        
-        ## Publish the dashboard markdown.
-        #python << EOF
-        #import firecloud.api as fapi
-        #with open('README.md') as f:
-        #  fapi.update_workspace_attributes(
-        #      namespace="$NAMESPACE",
-        #      workspace="$WORKSPACE",
-        #      attrs=[fapi._attr_set(attr='description', value=f.read())]).json()
-        #EOF
