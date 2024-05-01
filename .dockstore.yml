@@ -1,0 +1,6 @@
+version: 1.2
+notebooks:
+  - name: Intro
+    path: /notebooks/0_Intro_to_Jupyter_Notebooks_OPTIONAL.ipynb 
+  - name: Variant Discovery
+    path: /notebooks/1-gatk-germline-variant-discovery-tutorial.ipynb
