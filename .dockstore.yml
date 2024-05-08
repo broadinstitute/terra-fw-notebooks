@@ -2,5 +2,29 @@ version: 1.2
 notebooks:
   - name: Intro
     path: /notebooks/0_Intro_to_Jupyter_Notebooks_OPTIONAL.ipynb 
-  - name: VariantDiscovery
+  - name: VariantDiscoveryTutorial
     path: /notebooks/1-gatk-germline-variant-discovery-tutorial.ipynb
+  - name: GatkHardFilteringTutorial
+    path: /notebooks/2-gatk-hard-filtering-tutorial.ipynb
+  - name: BigQueryCohortAnalysis
+    path: /notebooks/2_BigQuery_cohort_analysis.ipynb
+  - name: AccessPlotPublicBigQueryData
+    path: /notebooks/3_Access_and_plot_public_BigQuery_data.ipynb
+  - name: ClusterAnalysis
+    path: /notebooks/Cluster_Analysis_Tetralogy_of_Fallot.ipynb
+  - name: GWASInitialAnalysisBlank
+    path: /notebooks/GWAS_initial_analysis_blank.ipynb
+  - name: GWASInitialAnalysisCompleted
+    path: /notebooks/GWAS_initial_analysis_completed.ipynb
+  - name: SomaticCNATutorial
+    path: /notebooks/Somatic-CNA-Tutorial.ipynb
+  - name: SomaticMutect2Tutorial
+    path: /notebooks/Somatic-Mutect2-Tutorial.ipynb
+  - name: WorkflowCostEstimator
+    path: /notebooks/Workflow-Cost-Estimator.ipynb
+  - name: GatkCnnTutorial
+    path: /notebooks/gatk-cnn-tutorial.ipynb
+  - name: GnomADWithBigQuery
+    path: /notebooks/gnomAD-with-BigQuery.ipynb
+  - name: GnomADWithHail
+    path: /notebooks/gnomAD-with-Hail.ipynb
