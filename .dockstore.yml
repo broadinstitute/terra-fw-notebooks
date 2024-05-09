@@ -9,21 +9,25 @@ notebooks:
   - name: GatkHardFilteringTutorial
     path: /notebooks/2-gatk-hard-filtering-tutorial.ipynb
     publish: true
-  - name: BigQueryCohortAnalysis
-    path: /notebooks/2_BigQuery_cohort_analysis.ipynb
-    publish: true
-  - name: AccessPlotPublicBigQueryData
-    path: /notebooks/3_Access_and_plot_public_BigQuery_data.ipynb
-    publish: true
-  - name: ClusterAnalysis
-    path: /notebooks/Cluster_Analysis_Tetralogy_of_Fallot.ipynb
-    publish: true
+    # R notebooks currently not supported in Dockstore
+    #  - name: BigQueryCohortAnalysis
+    #    path: /notebooks/2_BigQuery_cohort_analysis.ipynb
+    #    publish: true
+    # R notebooks currently not supported in Dockstore
+    #- name: AccessPlotPublicBigQueryData
+    #  path: /notebooks/3_Access_and_plot_public_BigQuery_data.ipynb
+    #  publish: true
+    ## R notebooks currently not supported in Dockstore
+    #- name: ClusterAnalysis
+    #  path: /notebooks/Cluster_Analysis_Tetralogy_of_Fallot.ipynb
+    #  publish: true
   - name: GWASInitialAnalysisBlank
     path: /notebooks/GWAS_initial_analysis_blank.ipynb
     publish: true
-  - name: GWASInitialAnalysisCompleted
-    path: /notebooks/GWAS_initial_analysis_completed.ipynb
-    publish: true
+    # SEAB-6423, commenting out for now.
+    #  - name: GWASInitialAnalysisCompleted
+    #    path: /notebooks/GWAS_initial_analysis_completed.ipynb
+    #    publish: true
   - name: SomaticCNATutorial
     path: /notebooks/Somatic-CNA-Tutorial.ipynb
     publish: true
