@@ -24,7 +24,7 @@ notebooks:
   - name: GWASInitialAnalysisBlank
     path: /notebooks/GWAS_initial_analysis_blank.ipynb
     publish: true
-    # SEAB-6423, commenting out for now.
+    # Notebooks greater than 1MB currently not supported in Dockstore
     #  - name: GWASInitialAnalysisCompleted
     #    path: /notebooks/GWAS_initial_analysis_completed.ipynb
     #    publish: true
